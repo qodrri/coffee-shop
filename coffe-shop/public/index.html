@@ -1,129 +1,418 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <meta charset="UTF-8" />
+    <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Coffee Shop</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-  </head>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png" />
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer" />
+    <!-- Meta Description -->
+    <meta name="description" content="" />
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="" />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>Coffee</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet" />
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
   <body>
-    <header id="header">
+    <header id="header" id="home">
+      <div class="header-top">
+        <div class="container">
+          <div class="row justify-content-end">
+            <div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
+              <ul>
+                <li>Mon-Fri: 8am to 2pm</li>
+                <li>Sat-Sun: 11am to 4pm</li>
+                <li>
+                  <a href="tel:(012) 6985 236 7512">(012) 6985 236 7512</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
-            <a href="/"><img src="img/logo.png" alt="Logo" /></a>
+            <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li><a href="#home">Home</a></li>
+              <li class="menu-active"><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#coffee">Coffee</a></li>
               <li><a href="#review">Review</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li class="menu-has-children">
+                <a href="">Pages</a>
+                <ul>
+                  <li><a href="generic.html">Generic</a></li>
+                  <li><a href="elements.html">Elements</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
+          <!-- #nav-menu-container -->
         </div>
       </div>
     </header>
+    <!-- #header -->
 
+    <!-- start banner Area -->
     <section class="banner-area" id="home">
       <div class="container">
         <div class="row fullscreen d-flex align-items-center justify-content-start">
           <div class="banner-content col-lg-7">
             <h6 class="text-white text-uppercase">Now you can feel the Energy</h6>
-            <h1>Start your day with a black Coffee</h1>
-            <a href="#coffee" class="primary-btn text-uppercase">See Menu</a>
+            <h1>
+              Start your day with <br />
+              a black Coffee
+            </h1>
+            <a href="#" class="primary-btn text-uppercase">Buy Now</a>
           </div>
         </div>
       </div>
     </section>
+    <!-- End banner Area -->
 
-    <!-- Newsletter Area -->
-    <section class="newsletter-area section-gap">
+    <!-- Start video-sec Area -->
+    <section class="video-sec-area pb-100 pt-40" id="about">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h2>Subscribe to Our Newsletter</h2>
-            <form id="newsletterForm">
-              <div class="input-group">
-                <input type="email" name="email" class="form-control" placeholder="Enter your email" required />
-                <div class="input-group-append">
-                  <button class="btn btn-primary" type="submit">Subscribe</button>
-                </div>
+        <div class="row justify-content-start align-items-center">
+          <div class="col-lg-6 video-right justify-content-center align-items-center d-flex">
+            <div class="overlay overlay-bg"></div>
+            <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt="" /></a>
+          </div>
+          <div class="col-lg-6 video-left">
+            <h6>Live Coffee making process.</h6>
+            <h1>
+              We Telecast our <br />
+              Coffee Making Live
+            </h1>
+            <p><span>We are here to listen from you deliver exellence</span></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            <img class="img-fluid" src="img/signature.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End video-sec Area -->
+
+    <!-- Start menu Area -->
+    <section class="menu-area section-gap" id="coffee">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-10">
+            <div class="title text-center">
+              <h1 class="mb-10">What kind of Coffee we serve for you</h1>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Cappuccino</h4>
+                <p class="price float-right">$49</p>
               </div>
-              <div id="newsletterMessage" class="pt-2"></div>
-            </form>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Americano</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Espresso</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Macchiato</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Mocha</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Coffee Latte</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Piccolo Latte</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Ristretto</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-menu">
+              <div class="title-div justify-content-between d-flex">
+                <h4>Affogato</h4>
+                <p class="price float-right">$49</p>
+              </div>
+              <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- End menu Area -->
 
-    <!-- Contact Area -->
-    <section class="contact-area section-gap" id="contact">
+    <!-- Start gallery Area -->
+    <section class="gallery-area section-gap" id="gallery">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-10">
+            <div class="title text-center">
+              <h1 class="mb-10">What kind of Coffee we serve for you</h1>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="img/g1.jpg" class="img-pop-home">
+              <img class="img-fluid" src="img/g1.jpg" alt="" />
+            </a>
+            <a href="img/g2.jpg" class="img-pop-home">
+              <img class="img-fluid" src="img/g2.jpg" alt="" />
+            </a>
+          </div>
           <div class="col-lg-8">
-            <h2>Contact Us</h2>
-            <form id="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+            <a href="img/g3.jpg" class="img-pop-home">
+              <img class="img-fluid" src="img/g3.jpg" alt="" />
+            </a>
+            <div class="row">
+              <div class="col-lg-6">
+                <a href="img/g4.jpg" class="img-pop-home">
+                  <img class="img-fluid" src="img/g4.jpg" alt="" />
+                </a>
               </div>
-              <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+              <div class="col-lg-6">
+                <a href="img/g5.jpg" class="img-pop-home">
+                  <img class="img-fluid" src="img/g5.jpg" alt="" />
+                </a>
               </div>
-              <div class="form-group">
-                <input type="text" name="phone" class="form-control" placeholder="Your Phone (optional)" />
-              </div>
-              <div class="form-group">
-                <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send Message</button>
-              <div id="contactMessage" class="pt-2"></div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- End gallery Area -->
 
+    <!-- Start review Area -->
+    <section class="review-area section-gap" id="review">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-10">
+            <div class="title text-center">
+              <h1 class="mb-10">What kind of Coffee we serve for you</h1>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 single-review">
+            <img src="img/r1.png" alt="" />
+            <div class="title d-flex flex-row">
+              <h4>lorem ipusm</h4>
+              <div class="star">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 single-review">
+            <img src="img/r2.png" alt="" />
+            <div class="title d-flex flex-row">
+              <h4>lorem ipusm</h4>
+              <div class="star">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+            <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+          </div>
+        </div>
+        <div class="row counter-row">
+          <div class="col-lg-3 col-md-6 single-counter">
+            <h1 class="counter">2536</h1>
+            <p>Happy Client</p>
+          </div>
+          <div class="col-lg-3 col-md-6 single-counter">
+            <h1 class="counter">7562</h1>
+            <p>Total Projects</p>
+          </div>
+          <div class="col-lg-3 col-md-6 single-counter">
+            <h1 class="counter">2013</h1>
+            <p>Cups Coffee</p>
+          </div>
+          <div class="col-lg-3 col-md-6 single-counter">
+            <h1 class="counter">10536</h1>
+            <p>Total Submitted</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End review Area -->
+
+    <!-- Start blog Area -->
+    <section class="blog-area section-gap" id="blog">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-60 col-lg-10">
+            <div class="title text-center">
+              <h1 class="mb-10">What kind of Coffee we serve for you</h1>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 single-blog">
+            <img class="img-fluid" src="img/b1.jpg" alt="" />
+            <ul class="post-tags">
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">Life Style</a></li>
+            </ul>
+            <a href="#"><h4>Portable latest Fashion for young women</h4></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p class="post-date">31st January, 2018</p>
+          </div>
+          <div class="col-lg-6 col-md-6 single-blog">
+            <img class="img-fluid" src="img/b2.jpg" alt="" />
+            <ul class="post-tags">
+              <li><a href="#">Travel</a></li>
+              <li><a href="#">Life Style</a></li>
+            </ul>
+            <a href="#"><h4>Portable latest Fashion for young women</h4></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p class="post-date">31st January, 2018</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End blog Area -->
+
+    <!-- start footer Area -->
     <footer class="footer-area section-gap">
-      <div class="container text-center">
-        <p>
-          &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          Coffee Shop. All rights reserved.
-        </p>
+      <div class="container">
+        <div class="row">
+          <!-- About Us dan Follow Us tetap sama -->
+
+          <div class="col-lg-5 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h6>Newsletter</h6>
+              <p>Stay update with our latest</p>
+              <form id="newsletter-form" class="form-inline">
+                <input class="form-control" id="newsletter-email" placeholder="Enter Email" required type="email" />
+                <button type="submit" class="click-btn btn btn-default">
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </button>
+                <div class="info pt-2" id="newsletter-msg"></div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
+    <!-- End footer Area -->
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script>
-      // Newsletter form
-      $("#newsletterForm").submit(function (e) {
-        e.preventDefault();
-        const email = $(this).find("input[name=email]").val();
-        $.post("/api/newsletter", { email }, function (res) {
-          $("#newsletterMessage").html(`<span class="text-success">${res.message}</span>`);
-        }).fail(function (xhr) {
-          const msg = xhr.responseJSON?.message || "Failed to subscribe";
-          $("#newsletterMessage").html(`<span class="text-danger">${msg}</span>`);
-        });
-      });
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
 
-      // Contact form
-      $("#contactForm").submit(function (e) {
+    <script>
+      $("#newsletter-form").submit(function (e) {
         e.preventDefault();
-        const data = $(this).serialize();
-        $.post("/api/contact", data, function (res) {
-          $("#contactMessage").html(`<span class="text-success">${res.message}</span>`);
-          $("#contactForm")[0].reset();
-        }).fail(function (xhr) {
-          const msg = xhr.responseJSON?.message || "Failed to send message";
-          $("#contactMessage").html(`<span class="text-danger">${msg}</span>`);
+        const email = $("#newsletter-email").val();
+        $("#newsletter-msg").text("Sending...").removeClass("text-success text-danger");
+
+        $.ajax({
+          url: "/api/newsletter",
+          method: "POST",
+          contentType: "application/json",
+          data: JSON.stringify({ email }),
+          success: function (res) {
+            $("#newsletter-msg").text("Subscribed successfully!").addClass("text-success");
+            $("#newsletter-email").val("");
+          },
+          error: function () {
+            $("#newsletter-msg").text("Failed to subscribe. Try again later.").addClass("text-danger");
+          },
         });
       });
     </script>
